@@ -1,0 +1,24 @@
+body{
+    background-image: url(birds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    font-size: 29px;
+    line-height: 29px;
+    padding: 20px;
+    border-radius: 25px;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+    text-decoration: dashed;
+    font-style: italic;
+
+    background-image: linear-gradient(blue,yellowgreen);
+    box-shadow: rgb(0,0,0) 10px 19px 15px 5px;
+    border: 2px solid rgb(153,62,22);
+    display: inline-block;
+}
+h1{
+    color: coral;
+    font-size: 35px;
+}

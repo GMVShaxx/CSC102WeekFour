@@ -1,0 +1,31 @@
+<!--This is Assignment 4.2 for CSC102, created by Gage Vaughan-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Our links to JavaScript and CSS will be found here -->
+    <script src = "Assignment 4.2 CSC102.js"></script>
+    <link href = "Assignment 4.2 CSC102.css" rel = "stylesheet">
+
+<!--We plan to test sound here, so we'll change the Tab title to Sound to match -->
+    <title>Sound for Assignment 4.2 </title>
+</head>
+<body>
+<!--Welcome our users to the webpage and set up expectations for what they are going to interact with -->
+    <h1> Here are some Bird Sounds!</h1>
+    <br>
+<!--First is an adjustable sound file that users can also change the Playback speed on if they wish -->
+    <audio controls>
+        <source src = "cartoon-birds-2_daniel-simion.mp3"audio/mpeg"> </source>
+    </audio>  
+    <br><br>
+<!--Next, we'll create toggleable buttons for user to be able to start and stop-->
+    <button onclick="play();"> Sound the Birds </button>
+    <button onclick="stop();"> Stop the Birds </button>
+
+
+
+</body>
+</html>
