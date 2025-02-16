@@ -1,0 +1,39 @@
+<!--This is for Assignment 4.1 for CSC102, created my Gage Vaughan -->
+<!-- I decided to go for a dog park style for this assignment, hope you enjoy -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Links to my JavaScript and CSS file for the page -->
+    <script src = "Assignment 4.1 CSC102.js"></script>
+    <link href = "Assignment 4.1 CSC102.css" rel = "stylesheet">
+    
+<!-- Custom tab to name the page -->
+    <title> Event Driven Programming </title>
+
+</head>
+
+<body>
+<!-- Here I'll welcome users and explain what will happen -->
+<!-- The Welcome tag will update once the the Hello button has been pressed -->
+    <h1 id = "welcome"> Welcome to the field! Say Hi to the puppers</h1>
+
+<!-- Here I'll create the buttons that will make my image move across the screen -->
+    <button id = "startButton" onclick = "startWalk();"> Walk the Dog! </button>
+
+<!-- Here I'll create the button that will stop the dog from walking once the user presses it -->
+    <button id = "stopButton" onclick = "pauseWalk();"> Take a break. Treat time! </button>
+
+<!-- Here I'll create the button that resets the page so that the user can walk the dog from the beginning -->
+    <button id = "resetPage" onclick = "restart();"> Come Back! Take another loop </button>
+    <br><br>
+
+<!-- I will place my dog image here -->
+    <img src = "dog1.jpg" id = "doggo" style = "position:absolute;left:100;top:100;width:200";/>
+    
+
+</body>
+</html>
